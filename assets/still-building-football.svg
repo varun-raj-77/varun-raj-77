@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
+<title id="title">Varun Karthik, Software Engineer. Still Building.</title>
+<desc id="desc">A restrained black-and-white banner. On the right, a tiny footballer runs through three diagonal passes while the name and title stay still.</desc>
+<defs>
+  <clipPath id="rounded"><rect x="0" y="0" width="1200" height="270" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#rounded)">
+  <rect width="1200" height="270" fill="#050505"/>
+  <rect x="1" y="1" width="1198" height="268" rx="15" fill="none" stroke="#282828" stroke-width="1.5"/>
+  <text x="79" y="126" fill="#F7F7F7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="62" font-weight="700" letter-spacing="-1.7">Varun Karthik</text>
+  <text x="82" y="177" fill="#CECECE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="29">Software Engineer</text>
+  <line x1="704" y1="64" x2="704" y2="207" stroke="#343434" stroke-width="1.5"/>
+  <text x="785" y="95" fill="#F4F4F4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="39" letter-spacing="2">Still Building.</text>
+  <line x1="786" y1="108" x2="828" y2="108" stroke="#CACACA" stroke-width="1.7" stroke-linecap="round"/>
+
+  <!-- A quiet route with exactly three diagonal changes. -->
+  <path d="M839 216 L946 161 L1049 214 L1150 163" fill="none" stroke="#343434" stroke-width="1.6" stroke-dasharray="3 11" stroke-linecap="round"/>
+  <g fill="#696969">
+    <circle cx="839" cy="216" r="2.3"/>
+    <circle cx="946" cy="161" r="2.3"/>
+    <circle cx="1049" cy="214" r="2.3"/>
+    <circle cx="1150" cy="163" r="2.3"/>
+  </g>
+  <!-- Minimal contact ripples mark each of the three kicks. -->
+  <circle cx="839" cy="216" r="12" fill="none" stroke="#B9B9B9" stroke-width="1.2" opacity="0">
+    <animate attributeName="opacity" values="0;.65;0;0" keyTimes="0;.055;.10;1" dur="7.2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="8;12;16;16" keyTimes="0;.055;.10;1" dur="7.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="946" cy="161" r="12" fill="none" stroke="#B9B9B9" stroke-width="1.2" opacity="0">
+    <animate attributeName="opacity" values="0;0;.6;0;0" keyTimes="0;.337;.365;.42;1" dur="7.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1049" cy="214" r="12" fill="none" stroke="#B9B9B9" stroke-width="1.2" opacity="0">
+    <animate attributeName="opacity" values="0;0;.6;0;0" keyTimes="0;.675;.696;.75;1" dur="7.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Local origin is at the player's feet. His arms and back leg pump while he chases the ball. -->
+  <g stroke="#F2F2F2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <g>
+      <animateMotion dur="7.2s" repeatCount="indefinite" rotate="0" calcMode="linear"
+        path="M806 218 L913 163 L1016 216 L1117 165"
+        keyPoints="0;0;.33333;.33333;.66667;.66667;1;1"
+        keyTimes="0;.06;.335;.365;.67;.695;.955;1"/>
+      <circle cx="4.5" cy="-43.5" r="6.7" stroke-width="2.5" fill="#050505"/>
+      <path d="M3 -35 L2 -29 L9 -18" stroke-width="3.2"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="-11 2 -30;11 2 -30;-11 2 -30" dur=".62s" repeatCount="indefinite"/>
+        <path d="M2 -30 L-8 -26 L-11 -19" stroke-width="2.2"/>
+      </g>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="11 5 -29;-11 5 -29;11 5 -29" dur=".62s" repeatCount="indefinite"/>
+        <path d="M5 -29 L14 -24 L18 -30" stroke-width="2.2"/>
+      </g>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="15 9 -18;-17 9 -18;15 9 -18" dur=".62s" repeatCount="indefinite"/>
+        <path d="M9 -18 L-3 -8 L-11 1 L-6 2" stroke-width="2.8"/>
+      </g>
+      <g>
+        <animateTransform attributeName="transform" type="rotate"
+          values="0 9 -18;0 9 -18;29 9 -18;0 9 -18;0 9 -18;0 9 -18;29 9 -18;0 9 -18;0 9 -18;0 9 -18;29 9 -18;0 9 -18;0 9 -18"
+          keyTimes="0;.025;.055;.095;.325;.345;.37;.408;.665;.685;.715;.752;1"
+          dur="7.2s" repeatCount="indefinite"/>
+        <path d="M9 -18 L19 -10 L27 -2 L33 -1" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- The football pauses at the corners for the next touch. -->
+  <g>
+    <animateMotion dur="7.2s" repeatCount="indefinite" rotate="0" calcMode="linear"
+      path="M839 216 L946 161 L1049 214 L1150 163"
+      keyPoints="0;0;.33333;.33333;.66667;.66667;1;1"
+      keyTimes="0;.06;.30;.365;.60;.695;.925;1"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="1080" dur="7.2s" repeatCount="indefinite"/>
+      <circle r="8.9" fill="#F1F1F1" stroke="#151515" stroke-width=".9"/>
+      <polygon points="0,-4.1 3.9,-1.3 2.5,3.1 -2.5,3.1 -3.9,-1.3" fill="#141414"/>
+      <path d="M0 -4.1 L0 -8 M3.9 -1.3 L7.6 -3.1 M2.5 3.1 L5.9 6.2 M-2.5 3.1 L-5.9 6.2 M-3.9 -1.3 L-7.6 -3.1" stroke="#252525" stroke-width=".8" fill="none"/>
+    </g>
+  </g>
+</g>
+</svg>
