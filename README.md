@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/varun-raj-77/varun-raj-77/main/assets/still-building-football.svg" alt="Varun Karthik, Software Engineer. Still Building. A small footballer makes three diagonal passes." width="100%" />
+  <img src="https://raw.githubusercontent.com/varun-raj-77/varun-raj-77/main/assets/still-building-goal-right.svg" alt="Varun Karthik, Software Engineer. Still Building. A small footballer dribbles toward a goal, scores, and celebrates with applause." width="100%" />
 </p>
 
 <p align="center">
