@@ -35,7 +35,7 @@ Previously, I built product UI at **GoDB Technologies** and **Dafidy Technologie
 
 <sub>Figures above describe professional product work, not traffic or benchmark claims for my personal projects.</sub>
 
-<h2 id="selected-work">Selected work</h2>
+## Selected work
 
 Three products, three different challenges. Each has a public repository, a product demo, and engineering decisions worth examining.
 
