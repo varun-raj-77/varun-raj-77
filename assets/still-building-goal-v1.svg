@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
+<title id="title">Varun Karthik, Software Engineer. Still Building.</title>
+<desc id="desc">A monochrome header with a tiny footballer dribbling straight across the lower right, scoring under the headline, celebrating, and receiving two small rounds of applause.</desc>
+<defs>
+ <clipPath id="frame"><rect width="1200" height="270" rx="16"/></clipPath>
+ <g id="hands" fill="none" stroke="#D1D1D1" stroke-width="1.55" stroke-linejoin="round" stroke-linecap="round">
+  <g>
+   <animateTransform attributeName="transform" type="translate" values="-2 0;1 0;-2 0" dur=".36s" repeatCount="indefinite"/>
+   <path d="M-21 10 L-22 -1 Q-22 -4 -20 -4 Q-18 -4 -17 -1 L-14 4 L-15 -10 Q-15 -13 -12 -12 L-11 2 L-10 -11 Q-9 -13 -7 -11 L-6 2 L-5 -7 Q-4 -9 -2 -7 L-1 6 Q-1 13 -7 15 L-16 15 Z"/>
+  </g>
+  <g>
+   <animateTransform attributeName="transform" type="translate" values="2 0;-1 0;2 0" dur=".36s" repeatCount="indefinite"/>
+   <path d="M-21 10 L-22 -1 Q-22 -4 -20 -4 Q-18 -4 -17 -1 L-14 4 L-15 -10 Q-15 -13 -12 -12 L-11 2 L-10 -11 Q-9 -13 -7 -11 L-6 2 L-5 -7 Q-4 -9 -2 -7 L-1 6 Q-1 13 -7 15 L-16 15 Z" transform="scale(-1 1)"/>
+  </g>
+ </g>
+</defs>
+<g clip-path="url(#frame)">
+ <rect width="1200" height="270" fill="#050505"/>
+ <rect x="1" y="1" width="1198" height="268" rx="15" fill="none" stroke="#292929" stroke-width="1.5"/>
+ <text x="79" y="126" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="62" font-weight="700" letter-spacing="-1.7" fill="#F7F7F7">Varun Karthik</text>
+ <text x="82" y="177" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="29" fill="#CECECE">Software Engineer</text>
+ <line x1="704" y1="64" x2="704" y2="207" stroke="#343434" stroke-width="1.5"/>
+ <text x="785" y="95" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="39" letter-spacing="2" fill="#F4F4F4">Still Building.</text>
+ <line x1="990" y1="108" x2="1035" y2="108" stroke="#CACACA" stroke-width="1.7" stroke-linecap="round"/>
+ 
+ <!-- Small open goal, centered directly beneath the underline. -->
+ <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M997 243 V193 H1054 V243" stroke="#E9E9E9" stroke-width="2.4"/>
+  <path d="M1003 243 V199 H1048 V243 M1003 199 L997 193 M1048 199 L1054 193" stroke="#858585" stroke-width="1"/>
+  <g stroke="#444444" stroke-width=".85">
+   <path d="M1014 199 V242 M1026 199 V242 M1037 199 V242 M1003 211 H1048 M1003 224 H1048 M1003 236 H1048"/>
+  </g>
+ </g>
+
+ <!-- The dribble stays on one horizontal baseline. -->
+ <g opacity="1" stroke="#EEEEEE" stroke-linecap="round" stroke-linejoin="round" fill="none">
+  <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.62;.655;1" dur="8.4s" repeatCount="indefinite"/>
+  <g>
+   <animateMotion path="M770 233 H947" calcMode="linear"
+      keyPoints="0;0;1;1" keyTimes="0;.12;.55;1" dur="8.4s" repeatCount="indefinite" rotate="0"/>
+   <!-- Forward-leaning footballer, intentionally graphic rather than a portrait. -->
+   <circle cx="5" cy="-40" r="6.8" stroke-width="2.4" fill="#050505"/>
+   <path d="M4 -33 L1 -27 L11 -17" stroke-width="3.1"/>
+   <g>
+    <animateTransform attributeName="transform" type="rotate" values="-12 2 -28;10 2 -28;-12 2 -28" dur=".52s" repeatCount="indefinite"/>
+    <path d="M2 -28 L-8 -23 L-10 -17" stroke-width="2.1"/>
+   </g>
+   <g>
+    <animateTransform attributeName="transform" type="rotate" values="13 5 -27;-10 5 -27;13 5 -27" dur=".52s" repeatCount="indefinite"/>
+    <path d="M5 -27 L15 -23 L19 -29" stroke-width="2.1"/>
+   </g>
+   <g>
+    <animateTransform attributeName="transform" type="rotate" values="14 11 -17;-12 11 -17;14 11 -17" dur=".52s" repeatCount="indefinite"/>
+    <path d="M11 -17 L1 -8 L-8 0 L-4 1" stroke-width="2.9"/>
+   </g>
+   <g>
+    <animateTransform attributeName="transform" type="rotate" values="-11 11 -17;8 11 -17;-11 11 -17" dur=".52s" repeatCount="indefinite"/>
+    <path d="M11 -17 L20 -8 L27 0 L31 0" stroke-width="2.9"/>
+   </g>
+  </g>
+ </g>
+ 
+ <!-- Ball stays close to the foot while dribbling, then is kicked straight into the goal. -->
+ <g opacity="0">
+  <animate attributeName="opacity" values="0;1;1;1;0;0" keyTimes="0;.035;.9;.94;.99;1" dur="8.4s" repeatCount="indefinite"/>
+  <g>
+   <animateMotion path="M803 227 H980 H1025" calcMode="linear"
+     keyPoints="0;0;.797;.797;1;1" keyTimes="0;.12;.55;.61;.69;1" dur="8.4s" repeatCount="indefinite" rotate="0"/>
+   <g>
+    <animateTransform attributeName="transform" type="rotate" values="0;0;720;720;910;910" keyTimes="0;.12;.55;.61;.69;1" dur="8.4s" repeatCount="indefinite"/>
+    <circle r="7.6" fill="#F7F7F7" stroke="#111111" stroke-width=".8"/>
+    <polygon points="0,-3.4 3.4,-1.1 2.2,2.9 -2.2,2.9 -3.4,-1.1" fill="#171717"/>
+    <path d="M0 -3.4 V-6.9 M3.4 -1.1 L6.5 -2.8 M2.2 2.9 L5 5.1 M-2.2 2.9 L-5 5.1 M-3.4 -1.1 L-6.5 -2.8" stroke="#292929" stroke-width=".7" fill="none"/>
+   </g>
+  </g>
+ </g>
+
+ <!-- Once the ball is in, the player stops and raises both arms. -->
+ <g opacity="0" stroke="#F0F0F0" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.665;.695;.865;.91;1" dur="8.4s" repeatCount="indefinite"/>
+  <g transform="translate(947 233)">
+   <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0;0 -2;0 0" dur=".75s" repeatCount="indefinite"/>
+    <circle cx="5" cy="-40" r="6.8" stroke-width="2.4" fill="#050505"/>
+    <path d="M5 -33 L6 -17 M4 -29 L-10 -42 M7 -29 L21 -42 M6 -17 L-3 -2 L-8 0 M6 -17 L16 -2 L21 0" stroke-width="2.9"/>
+   </g>
+  </g>
+ </g>
+ 
+ <!-- Two pairs of outline hands, only while the goal is being celebrated. -->
+ <g opacity="0" transform="translate(584 222)">
+  <animate attributeName="opacity" values="0;0;.85;.85;0;0" keyTimes="0;.69;.73;.86;.91;1" dur="8.4s" repeatCount="indefinite"/>
+  <use href="#hands"/>
+ </g>
+ <g opacity="0" transform="translate(1136 222)">
+  <animate attributeName="opacity" values="0;0;.85;.85;0;0" keyTimes="0;.69;.73;.86;.91;1" dur="8.4s" repeatCount="indefinite"/>
+  <use href="#hands"/>
+ </g>
+</g>
+</svg>
