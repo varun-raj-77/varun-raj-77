@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/varun-raj-77/varun-raj-77/main/assets/profile-hero.svg" alt="Varun Karthik, Software Engineer. React, TypeScript, Node.js. Still building." width="100%" />
+  <img src="https://raw.githubusercontent.com/varun-raj-77/varun-raj-77/main/assets/still-building-header.svg" alt="Varun Karthik. Software Engineer. Still Building." width="100%" />
 </p>
 
 <p align="center">
@@ -8,21 +8,21 @@
   <a href="mailto:varunraj.karthikeyan@gmail.com">Email</a>
 </p>
 
-### About
+### About me
 
-Hi, I'm Varun, a software engineer based in Cleveland, Ohio. I work mainly with React, TypeScript, and Node.js. I like building products that are straightforward to use and still work well when things go wrong.
+Hi, I'm Varun. I'm a software engineer based in Cleveland, Ohio. Most of my work is with **React, TypeScript, and Node.js**, but I enjoy working across a product, from how it feels to use to how it behaves when something goes wrong.
 
-I've worked on insurance and travel products at **GoDB Technologies** and **Dafidy Technologies**, and completed my master's in Computer Science at **Cleveland State University**. I also evaluate AI-generated code at **Mercor** and volunteer with **Develop for Good**.
+I've worked on production insurance and travel platforms at **GoDB Technologies** and **Dafidy Technologies**, building customer-facing workflows, shared components, and API integrations. I completed my master's in Computer Science at **Cleveland State University**. More recently, I've evaluated AI-generated engineering work at **Mercor** and volunteered with **Develop for Good**.
 
-Some of the projects below started with problems I ran into while building something else.
+I like building software that makes a real problem less frustrating for someone. Sometimes that means a better interface. Sometimes it means making a complicated workflow reliable enough that people can trust it.
 
-### Selected results from my professional work
+### A few results from my professional work
 
 <table>
   <tr>
     <td align="center" width="33%"><strong>300K+</strong><br /><sub>Users served by insurance workflows</sub></td>
-    <td align="center" width="33%"><strong>~800 ms to &lt;150 ms</strong><br /><sub>Interaction latency after React rendering improvements</sub></td>
-    <td align="center" width="33%"><strong>3 to 1.5 weeks</strong><br /><sub>Feature delivery cycle using shared components</sub></td>
+    <td align="center" width="33%"><strong>~800 ms to &lt;150 ms</strong><br /><sub>Interaction to Next Paint after React rendering improvements</sub></td>
+    <td align="center" width="33%"><strong>3 to 1.5 weeks</strong><br /><sub>Feature delivery cycle with shared components</sub></td>
   </tr>
 </table>
 
@@ -37,35 +37,35 @@ Some of the projects below started with problems I ran into while building somet
     </td>
     <td width="55%" valign="top">
       <h3>UI Merge Studio</h3>
-      <p>I started this after comparing multiple React implementations and wishing I could keep the parts I liked from each. It lets you select supported UI regions, trace them back to code and dependencies, and create a combined branch when verification passes.</p>
+      <p>This started with a problem I ran into while building FlowCraft. AI coding tools produced different React implementations, and I often wanted parts of each. UI Merge Studio lets you pick supported features from running previews, trace them back to Git and Babel AST source evidence, and verify a combined branch. It refuses combinations it cannot safely handle instead of guessing.</p>
       <p><code>React</code> <code>TypeScript</code> <code>Vite</code> <code>Git</code> <code>Playwright</code></p>
-      <a href="https://ui-merge-studio.vercel.app/">Try the showcase</a> · <a href="https://github.com/varun-raj-77/ui-merge-studio">Source code</a>
+      <a href="https://ui-merge-studio.vercel.app/">Interactive showcase</a> · <a href="https://github.com/varun-raj-77/ui-merge-studio">Source and technical details</a>
     </td>
   </tr>
   <tr>
     <td width="45%" valign="top">
       <a href="https://github.com/varun-raj-77/flowcraft-ai-workflow-builder">
-        <img src="https://raw.githubusercontent.com/varun-raj-77/flowcraft-ai-workflow-builder/main/docs/images/flowcraft-dashboard.png" alt="FlowCraft workflow editor and execution inspector" width="100%" />
+        <img src="https://raw.githubusercontent.com/varun-raj-77/flowcraft-ai-workflow-builder/main/docs/images/flowcraft-dashboard.png" alt="FlowCraft workflow canvas and execution inspector" width="100%" />
       </a>
     </td>
     <td width="55%" valign="top">
       <h3>FlowCraft</h3>
-      <p>A visual workflow builder with AI-assisted graph generation, a React Flow editor, live execution updates, and revision history. The challenging part was making generated workflows safe to edit, save, and run.</p>
+      <p>A visual workflow builder where you can design automation graphs, generate editable workflows with AI, and follow execution in real time. I built the canvas with React Flow and used Socket.IO for node-level updates. The hard part was treating generated output as untrusted: graphs go through validation before they can be saved, while immutable revisions and prompt lineage make changes easier to inspect and recover.</p>
       <p><code>Next.js</code> <code>TypeScript</code> <code>React Flow</code> <code>Node.js</code> <code>Socket.IO</code></p>
-      <a href="https://flowcraft-ai-workflow-builder.vercel.app/">Try FlowCraft</a> · <a href="https://github.com/varun-raj-77/flowcraft-ai-workflow-builder">Source code</a>
+      <a href="https://flowcraft-ai-workflow-builder.vercel.app/">Try FlowCraft</a> · <a href="https://github.com/varun-raj-77/flowcraft-ai-workflow-builder">Source and architecture</a>
     </td>
   </tr>
   <tr>
     <td width="45%" valign="top">
       <a href="https://github.com/varun-raj-77/samewise">
-        <img src="https://raw.githubusercontent.com/varun-raj-77/samewise/master/docs/assets/readme/review-case.png" alt="Samewise reviewing an uncertain record match" width="100%" />
+        <img src="https://raw.githubusercontent.com/varun-raj-77/samewise/master/docs/assets/readme/review-case.png" alt="Samewise showing competing record matches and review evidence" width="100%" />
       </a>
     </td>
     <td width="55%" valign="top">
       <h3>Samewise</h3>
-      <p>A tool for reconciling records across messy CSV datasets. It finds possible matches, shows the evidence behind uncertain cases, lets people decide which values to keep, and exports an auditable result.</p>
+      <p>Two datasets can describe the same person or organization in different ways, and a simple join can make the wrong call. Samewise proposes record matches, explains agreements and contradictions, and leaves uncertain identities to a human reviewer. After matching, people can decide which values to keep and export reconciled data with an audit trail. It uses a React interface, a Fastify API, and a Python matcher.</p>
       <p><code>React</code> <code>TypeScript</code> <code>Fastify</code> <code>Python</code> <code>Vitest</code></p>
-      <a href="https://trysamewise.vercel.app/">Try Samewise</a> · <a href="https://github.com/varun-raj-77/samewise">Source code</a>
+      <a href="https://trysamewise.vercel.app/">Try Samewise</a> · <a href="https://github.com/varun-raj-77/samewise">Source and evaluation</a>
     </td>
   </tr>
 </table>
@@ -76,13 +76,12 @@ Some of the projects below started with problems I ran into while building somet
 
 **Services and data:** Node.js, Express, Fastify, REST, GraphQL, SQL, MongoDB, Python
 
-**Testing and tools:** Playwright, Vitest, Jest, React Testing Library, Git, Docker
+**Testing and tooling:** Playwright, Vitest, Jest, React Testing Library, Git, Docker
 
 ---
 
 <p align="center">
   <a href="https://www.linkedin.com/in/varunkarthik99/">LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="mailto:varunraj.karthikeyan@gmail.com">Email</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/varun-raj-77?tab=repositories">All repositories</a><br />
-  <sub>Cleveland, Ohio · Open to relocation</sub>
+  <a href="https://github.com/varun-raj-77?tab=repositories">All repositories</a>
 </p>
