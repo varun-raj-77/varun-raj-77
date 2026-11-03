@@ -3,11 +3,6 @@
 </p>
 
 <p align="center">
-  <strong>Software Engineer</strong><br />
-  React · TypeScript · Node.js
-</p>
-
-<p align="center">
   <a href="#projects">Projects</a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/varunkarthik99/">LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="mailto:varunraj.karthikeyan@gmail.com">Email</a>
